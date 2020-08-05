@@ -89,10 +89,10 @@
                     <a href="barang">Barang</a>
                     <a href="kategori">Kategori</a>
                     <a href="jenis">Jenis</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="pembelian">Pembelian</a>
+                    <a href="pembelian">Pembelian</a>
+                    <a href="jenis">Laporan Pembelian</a>
+                    <a href="jenis">Laporan Penjualan</a>
                 </div>
             </div>
         </div>
