@@ -6,7 +6,7 @@
     <title>Master Barang</title>
 </head>
 <body>
-    <a href="/laravel1">HOME</a>
+    <a href="/laravel1">HALAMAN UTAMA</a>
     <h1>Nama Barang : {{ $nmbarang }} <br> Jenis : {{ $jnbarang }}</h1>    
 </body>
 </html>

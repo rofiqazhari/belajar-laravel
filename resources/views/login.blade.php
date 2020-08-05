@@ -6,7 +6,7 @@
     <title>Login</title>
 </head>
 <body>
-<a href="/laravel1">HOME</a>
+<a href="/laravel1">HALAMAN UTAMA</a>
 <h1>Login User : {{ $usere }} <br> Password : {{ $passe }}</h1>    
 </body>
 </html>
