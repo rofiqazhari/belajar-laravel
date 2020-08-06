@@ -11,4 +11,10 @@ class MasterController extends Controller
         $jenisbarang = $par->input('jen');
         return view('barang',['nmbarang'=>$namabarang,'jnbarang'=>$jenisbarang]);
     }
+
+    public function kategori(Request $par){
+        $namabarang  = $par->input('kat');
+        $jenisbarang = $par->input('jen');
+        return view('kategori',['katbarang'=>$namabarang,'jenbarang'=>$jenisbarang]);
+    }
 }

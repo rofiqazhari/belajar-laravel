@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('login','LoginController@login');
 Route::get('barang','MasterController@barang');
+Route::get('kategori','MasterController@kategori');
