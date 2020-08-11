@@ -85,6 +85,7 @@
                 </div>
 
                 <div class="links">
+                    <a href="portofolio">Portofolio</a>
                     <a href="login">Login</a>
                     <a href="barang">Barang</a>
                     <a href="kategori">Kategori</a>
