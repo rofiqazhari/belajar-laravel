@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Software Developer Kediri</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -80,13 +80,13 @@
             @endif
 
             <div class="content">
+                <?php //$infoe="0";?>
+            <a href="/laravel1">logout</a><br><font color="red">{{ $infoe }}</font>            
                 <div class="title m-b-md">
-                    Laravel
+                Software Developer Kediri
                 </div>
 
                 <div class="links">
-                    <a href="portofolio">Portofolio</a>
-                    <a href="login">Login</a>
                     <a href="barang">Barang</a>
                     <a href="kategori">Kategori</a>
                     <a href="jenis">Jenis</a>

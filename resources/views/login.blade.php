@@ -6,17 +6,16 @@
     <title>Login</title>
 </head>
 <body><center>
-<a href="/laravel1">HALAMAN DEPAN</a>
-<h1>Login</h1>  
+<h1>Login</h1>          
 <form action="login_act" method="post">
-<input type = "hidden" name = "_token" value = "{{ csrf_token() }}">
+{{ csrf_field() }}
 <div class="row">
     <div class="col-6">User</div>
-    <div class="col-6"><input type="text" name="user" placeholder="{{ $usere }}"></div>
+    <div class="col-6"><input type="text" name="user" placeholder="Username"></div>
 </div>
 <div class="row">
     <div class="col-6">Password</div>
-    <div class="col-6"><input type="password" name="password" placeholder="{{ $passe }}"></div>
+    <div class="col-6"><input type="password" name="password" placeholder="Password"></div>
 </div>    
 <div class="row">
     <div class="col-12">
