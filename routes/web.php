@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('login','LoginController@login');
+Route::post('login_act','LoginController@login_act');
 Route::get('barang','MasterController@barang');
 Route::get('kategori','MasterController@kategori');
