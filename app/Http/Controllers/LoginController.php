@@ -7,10 +7,6 @@ use Illuminate\Http\Request;
 class LoginController extends Controller
 {   
     public function login(Request $parameter){
-        $username = $parameter->input('user'); //bisa array
-        $password = $parameter->input('pass');
-        // $username = request('user'); // cara lain TANPA (Request $parameter)
-        // $username = $parameter->user; //data singel
         return view('login');        
     }
 
@@ -24,5 +20,15 @@ class LoginController extends Controller
             return view('login',['infoe'=>'Ngapunten user atau password jenengan klentu !']);
         }        
         
+    }
+
+    public function home(){
+        return view('home');
+    }
+    public function home2(){
+        return view('home2');
+    }
+    public function home3(){
+        return view('home3');
     }
 }

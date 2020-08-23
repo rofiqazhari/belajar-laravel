@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>    
     <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap-grid.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap-grid.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap-reboot.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap-reboot.min.css') }}">
+    <script type="text/javascript" src="{{ asset('/js/jquery.js') }}"></script>    
+    <script type="text/javascript" src="{{ asset('/js/bootstrap.js.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('/js/bootstrap.min.js') }}"></script>                                    
 </head>
-<body><center>
-<h1>Login</h1>          
-<form action="login_act" method="post">
-{{ csrf_field() }}
-<div class="row">
-    <div class="col-6">User</div>
-    <div class="col-6"><input type="text" name="user" placeholder="Username"></div>
+<body>
+
+<div class="container">
+  <form action="login_act" method="post">
+  {{ csrf_field() }}      
+  <div class="row justify-content-lg-center mt-5 mb-4">
+    <div class="col-lg-4 text-center">
+    <h3>LOGIN</h3></div>
+  </div>          
+  <div class="row justify-content-lg-center mb-2">
+    <div class="col-lg-4">
+        <input type="text" name="user" class="form-control" placeholder="Username" required="" autofocus="">
+    </div>    
+  </div>
+  <div class="row justify-content-lg-center mb-4">
+      <div class="col-lg-4">
+        <input type="password" name="password" class="form-control" placeholder="Password" required="">
+      </div>  
+  </div>
+  <div class="row justify-content-lg-center">
+      <div class="col-lg-4 text-center">
+      <button class="btn btn-primary btn-block" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted text-center">Software Developer Kediri © 2020</p>
+      </div>  
+  </div>
+  </form>
 </div>
-<div class="row">
-    <div class="col-6">Password</div>
-    <div class="col-6"><input type="password" name="password" placeholder="Password"></div>
-</div>    
-<div class="row">
-    <div class="col-12">
-    <input type="submit" value="Simpan">
-    </div>
-<div>
-</form>
 </body>
 </html>
